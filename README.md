@@ -9,7 +9,7 @@ In order for the injector to work, the load/unload methods need to match the fol
 
     static void Method()
 
-In [releases](https://github.com/warbler/SharpMonoInjector/releases), there is a console application and a GUI application available.
+In [releases](https://github.com/djalolovtk/SharpMonoInjector/releases), there is a console application and a GUI application available.
 
 ![The GUI application](https://i.imgur.com/mPMwlu1.png)
 ![The console application](https://i.imgur.com/cz8Gyxa.png)
