@@ -12,4 +12,16 @@
     <OutputPath>..\..\build\release</OutputPath>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Costura.Fody" Version="6.0.0-alpha0384">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Fody" Version="6.8.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NETCore.Platforms" Version="8.0.0-preview.7.23375.6" />
+  </ItemGroup>
+
 </Project>
